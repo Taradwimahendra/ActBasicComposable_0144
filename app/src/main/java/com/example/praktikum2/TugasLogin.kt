@@ -59,3 +59,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Fit,
                 modifier = Modifier.size(150.dp)
             )
+
+            Spacer(modifier = Modifier.height(60.dp))
+
+            Text(
+                text = "Tara Dwi Mahendra",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
+            )
