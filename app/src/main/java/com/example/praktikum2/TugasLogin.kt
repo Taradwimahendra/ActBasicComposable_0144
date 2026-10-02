@@ -74,3 +74,11 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Medium,
                 color = Color.Black
             )
+            Spacer(modifier = Modifier.height(16.dp))
+
+            Box(
+                modifier = Modifier
+                    .size(350.dp)
+                    .clip(CircleShape)
+                    .background(color = Color(0xFFE8E8F8))
+                    .border(width = 3.dp, color = Color.White, shape = CircleShape),
