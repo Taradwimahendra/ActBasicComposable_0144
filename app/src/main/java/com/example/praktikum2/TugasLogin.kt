@@ -82,3 +82,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                     .clip(CircleShape)
                     .background(color = Color(0xFFE8E8F8))
                     .border(width = 3.dp, color = Color.White, shape = CircleShape),
+                contentAlignment = Alignment.Center
+            ) {
+                Image(
+                    painter = foto,
+                    contentDescription = null,
+                    contentScale = ContentScale.Fit,
+                    modifier = Modifier.fillMaxSize()
+                )
+            }
+        }
+    }
+}
